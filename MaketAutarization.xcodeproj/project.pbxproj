@@ -3,23 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CE29AE66266A4A370081196C /* MaketAutarizationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29AE65266A4A370081196C /* MaketAutarizationApp.swift */; };
-		CE29AE68266A4A370081196C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29AE67266A4A370081196C /* ContentView.swift */; };
+		CE29AE68266A4A370081196C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29AE67266A4A370081196C /* SignInView.swift */; };
 		CE29AE6A266A4A380081196C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE29AE69266A4A380081196C /* Assets.xcassets */; };
 		CE29AE6D266A4A380081196C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE29AE6C266A4A380081196C /* Preview Assets.xcassets */; };
+		CE4036D5266B65A700E40399 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = CE4036D4266B65A700E40399 /* SwiftyJSON */; };
+		CE4A4E3E266B8E6F00C786AC /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A4E3D266B8E6F00C786AC /* UserObject.swift */; };
+		CE4A4E41266B9C2E00C786AC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4A4E40266B9C2E00C786AC /* Launch Screen.storyboard */; };
+		CE4A4E44266BA0AE00C786AC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A4E43266BA0AE00C786AC /* RootView.swift */; };
+		CE4A4E48266BA41300C786AC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A4E47266BA41300C786AC /* MainView.swift */; };
+		CE4A4E4C266BAB1100C786AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A4E4B266BAB1100C786AC /* HomeView.swift */; };
+		DE5D02ECD8B81DCB31F618C1 /* Pods_MaketAutarization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F3A1F7299469B7E21D3661 /* Pods_MaketAutarization.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14F3A1F7299469B7E21D3661 /* Pods_MaketAutarization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaketAutarization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		179C92A25307363585ACF359 /* Pods-MaketAutarization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaketAutarization.debug.xcconfig"; path = "Target Support Files/Pods-MaketAutarization/Pods-MaketAutarization.debug.xcconfig"; sourceTree = "<group>"; };
+		5E89B527E3A79D7E18A95D73 /* Pods-MaketAutarization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaketAutarization.release.xcconfig"; path = "Target Support Files/Pods-MaketAutarization/Pods-MaketAutarization.release.xcconfig"; sourceTree = "<group>"; };
 		CE29AE62266A4A370081196C /* MaketAutarization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaketAutarization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE29AE65266A4A370081196C /* MaketAutarizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaketAutarizationApp.swift; sourceTree = "<group>"; };
-		CE29AE67266A4A370081196C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE29AE67266A4A370081196C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CE29AE69266A4A380081196C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE29AE6C266A4A380081196C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE29AE6E266A4A380081196C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4A4E3D266B8E6F00C786AC /* UserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		CE4A4E40266B9C2E00C786AC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CE4A4E43266BA0AE00C786AC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		CE4A4E47266BA41300C786AC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CE4A4E4B266BAB1100C786AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +42,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4036D5266B65A700E40399 /* SwiftyJSON in Frameworks */,
+				DE5D02ECD8B81DCB31F618C1 /* Pods_MaketAutarization.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		606C0953433F9B65B2FD40A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				179C92A25307363585ACF359 /* Pods-MaketAutarization.debug.xcconfig */,
+				5E89B527E3A79D7E18A95D73 /* Pods-MaketAutarization.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C84F4D2D8C2B7BBA9D94DB77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14F3A1F7299469B7E21D3661 /* Pods_MaketAutarization.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE29AE59266A4A370081196C = {
 			isa = PBXGroup;
 			children = (
 				CE29AE64266A4A370081196C /* MaketAutarization */,
 				CE29AE63266A4A370081196C /* Products */,
+				606C0953433F9B65B2FD40A9 /* Pods */,
+				C84F4D2D8C2B7BBA9D94DB77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +88,9 @@
 		CE29AE64266A4A370081196C /* MaketAutarization */ = {
 			isa = PBXGroup;
 			children = (
-				CE29AE65266A4A370081196C /* MaketAutarizationApp.swift */,
-				CE29AE67266A4A370081196C /* ContentView.swift */,
-				CE29AE69266A4A380081196C /* Assets.xcassets */,
+				CE4A4E51266BB29A00C786AC /* Common */,
+				CE4A4E4E266BB26700C786AC /* View */,
+				CE4A4E50266BB28000C786AC /* Obgect */,
 				CE29AE6E266A4A380081196C /* Info.plist */,
 				CE29AE6B266A4A380081196C /* Preview Content */,
 			);
@@ -69,6 +105,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CE4A4E4E266BB26700C786AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE29AE67266A4A370081196C /* SignInView.swift */,
+				CE4A4E47266BA41300C786AC /* MainView.swift */,
+				CE4A4E4B266BAB1100C786AC /* HomeView.swift */,
+				CE4A4E43266BA0AE00C786AC /* RootView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE4A4E50266BB28000C786AC /* Obgect */ = {
+			isa = PBXGroup;
+			children = (
+				CE4A4E3D266B8E6F00C786AC /* UserObject.swift */,
+			);
+			path = Obgect;
+			sourceTree = "<group>";
+		};
+		CE4A4E51266BB29A00C786AC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE29AE65266A4A370081196C /* MaketAutarizationApp.swift */,
+				CE4A4E40266B9C2E00C786AC /* Launch Screen.storyboard */,
+				CE29AE69266A4A380081196C /* Assets.xcassets */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,15 +141,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE29AE71266A4A380081196C /* Build configuration list for PBXNativeTarget "MaketAutarization" */;
 			buildPhases = (
+				776B7B5CB06238F31AFEE6C7 /* [CP] Check Pods Manifest.lock */,
 				CE29AE5E266A4A370081196C /* Sources */,
 				CE29AE5F266A4A370081196C /* Frameworks */,
 				CE29AE60266A4A370081196C /* Resources */,
+				9BF4D07C2C9FFD688A5437E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MaketAutarization;
+			packageProductDependencies = (
+				CE4036D4266B65A700E40399 /* SwiftyJSON */,
+			);
 			productName = MaketAutarization;
 			productReference = CE29AE62266A4A370081196C /* MaketAutarization.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +182,9 @@
 				Base,
 			);
 			mainGroup = CE29AE59266A4A370081196C;
+			packageReferences = (
+				CE4036D3266B65A700E40399 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = CE29AE63266A4A370081196C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4A4E41266B9C2E00C786AC /* Launch Screen.storyboard in Resources */,
 				CE29AE6D266A4A380081196C /* Preview Assets.xcassets in Resources */,
 				CE29AE6A266A4A380081196C /* Assets.xcassets in Resources */,
 			);
@@ -133,13 +207,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		776B7B5CB06238F31AFEE6C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaketAutarization-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BF4D07C2C9FFD688A5437E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaketAutarization/Pods-MaketAutarization-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaketAutarization/Pods-MaketAutarization-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaketAutarization/Pods-MaketAutarization-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE29AE5E266A4A370081196C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE29AE68266A4A370081196C /* ContentView.swift in Sources */,
+				CE4A4E44266BA0AE00C786AC /* RootView.swift in Sources */,
+				CE29AE68266A4A370081196C /* SignInView.swift in Sources */,
 				CE29AE66266A4A370081196C /* MaketAutarizationApp.swift in Sources */,
+				CE4A4E4C266BAB1100C786AC /* HomeView.swift in Sources */,
+				CE4A4E48266BA41300C786AC /* MainView.swift in Sources */,
+				CE4A4E3E266B8E6F00C786AC /* UserObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +384,7 @@
 		};
 		CE29AE72266A4A380081196C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179C92A25307363585ACF359 /* Pods-MaketAutarization.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +406,7 @@
 		};
 		CE29AE73266A4A380081196C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E89B527E3A79D7E18A95D73 /* Pods-MaketAutarization.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,6 +448,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE4036D3266B65A700E40399 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE4036D4266B65A700E40399 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE4036D3266B65A700E40399 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE29AE5A266A4A370081196C /* Project object */;
 }

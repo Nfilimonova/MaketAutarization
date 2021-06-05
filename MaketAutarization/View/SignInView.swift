@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+
+struct SignInView: View {
     @State var email = ""
     @State var pass = ""
-    
-    
-    
+    @ObservedObject var userObjact = UserObjact ()
+    @Binding var page: Int
     
     var body: some View {
         VStack{
@@ -43,16 +43,20 @@ struct ContentView: View {
                 HStack{
                     Image(systemName: "lock")  .foregroundColor(.gray)
                         .padding()
-            TextField("**********", text: $pass).padding(.horizontal)
-                    
+            SecureField("**********", text: $pass).padding(.horizontal)
+                .autocapitalization(.none)
+                .disableAutocorrection(true)
             }
                 .overlay(RoundedRectangle(cornerRadius: 8) .stroke(Color(UIColor.gray).opacity(1),lineWidth: 1))
                 .padding(.horizontal,20)
             
             Button(action: {
                
+                userObjact.login(email: email, password: pass)
+                page = 2
+               
             }, label: {
-                Text("SIGN UP")
+                Text("SIGN IN")
                     .font(.custom("Arial", size: 12))
                     .foregroundColor(.white)
                     .frame(width: 290, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -76,6 +80,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SignInView(page: .constant(1))
     }
 }
