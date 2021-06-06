@@ -17,6 +17,8 @@
 		CE4A4E44266BA0AE00C786AC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A4E43266BA0AE00C786AC /* RootView.swift */; };
 		CE4A4E48266BA41300C786AC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A4E47266BA41300C786AC /* MainView.swift */; };
 		CE4A4E4C266BAB1100C786AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A4E4B266BAB1100C786AC /* HomeView.swift */; };
+		CE4A4E55266C9E9000C786AC /* MovieObgect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A4E54266C9E9000C786AC /* MovieObgect.swift */; };
+		CE4A4E59266CA68500C786AC /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CE4A4E58266CA68500C786AC /* SDWebImageSwiftUI */; };
 		DE5D02ECD8B81DCB31F618C1 /* Pods_MaketAutarization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F3A1F7299469B7E21D3661 /* Pods_MaketAutarization.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,7 @@
 		CE4A4E43266BA0AE00C786AC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		CE4A4E47266BA41300C786AC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CE4A4E4B266BAB1100C786AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE4A4E54266C9E9000C786AC /* MovieObgect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieObgect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4A4E59266CA68500C786AC /* SDWebImageSwiftUI in Frameworks */,
 				CE4036D5266B65A700E40399 /* SwiftyJSON in Frameworks */,
 				DE5D02ECD8B81DCB31F618C1 /* Pods_MaketAutarization.framework in Frameworks */,
 			);
@@ -120,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				CE4A4E3D266B8E6F00C786AC /* UserObject.swift */,
+				CE4A4E54266C9E9000C786AC /* MovieObgect.swift */,
 			);
 			path = Obgect;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			name = MaketAutarization;
 			packageProductDependencies = (
 				CE4036D4266B65A700E40399 /* SwiftyJSON */,
+				CE4A4E58266CA68500C786AC /* SDWebImageSwiftUI */,
 			);
 			productName = MaketAutarization;
 			productReference = CE29AE62266A4A370081196C /* MaketAutarization.app */;
@@ -184,6 +190,7 @@
 			mainGroup = CE29AE59266A4A370081196C;
 			packageReferences = (
 				CE4036D3266B65A700E40399 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				CE4A4E57266CA68500C786AC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = CE29AE63266A4A370081196C /* Products */;
 			projectDirPath = "";
@@ -255,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4A4E44266BA0AE00C786AC /* RootView.swift in Sources */,
+				CE4A4E55266C9E9000C786AC /* MovieObgect.swift in Sources */,
 				CE29AE68266A4A370081196C /* SignInView.swift in Sources */,
 				CE29AE66266A4A370081196C /* MaketAutarizationApp.swift in Sources */,
 				CE4A4E4C266BAB1100C786AC /* HomeView.swift in Sources */,
@@ -458,6 +466,14 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		CE4A4E57266CA68500C786AC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -465,6 +481,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CE4036D3266B65A700E40399 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		CE4A4E58266CA68500C786AC /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE4A4E57266CA68500C786AC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
